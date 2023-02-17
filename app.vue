@@ -1,5 +1,7 @@
+<script setup>
+const store = await useStoryblok('home', { version: "draft" })
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <pre>{{ story }}</pre>
 </template>
+
